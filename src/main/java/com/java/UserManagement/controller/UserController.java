@@ -7,6 +7,7 @@ import com.java.UserManagement.repository.UserRepository;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/users")
 public class UserController {
